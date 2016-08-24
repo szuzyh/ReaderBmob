@@ -24,5 +24,8 @@
     <string name="nav_title_music_daily">音乐</string>
     <string name="nav_title_cartoon_daily">动画漫画</string>
     <string name="nav_title_sports_daily">体育竞技</string>
+    <string name="today">今日热闻</string>
+    <string name="comment_example">有多少爱可以重来，有多少人，值得等待。寂寞沙洲我该思念谁</string>
+    <string name="comment_replay">//我说：写几句你喜欢的歌词吧</string>
 
 </resources>

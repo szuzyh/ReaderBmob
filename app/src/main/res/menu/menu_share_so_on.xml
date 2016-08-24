@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/share"
+          android:icon="@mipmap/share"
+          android:title=""
+          app:showAsAction = "always"/>
+    <item android:id="@+id/collect"
+          android:icon="@mipmap/collect"
+          android:title=""
+          app:showAsAction = "always"/>
+    <item android:id="@+id/comment"
+          app:actionLayout="@layout/toolbar_menu_item_comment"
+          android:title=""
+          app:showAsAction = "always"/>
+    <item android:id="@+id/praise"
+          app:actionLayout="@layout/toolbar_menu_item_praise"
+          android:title=""
+          app:showAsAction="always"/>
+
+
+</menu>

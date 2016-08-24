@@ -11,17 +11,17 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:id="@+id/iv_user"
-        android:src="@mipmap/ic_launcher"
+        android:clickable="true"
         android:scaleType="fitXY"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_user_name"
-        android:text="one"
+        android:text="clickTest"
         android:layout_marginTop="10dp"/>
 
-<Button
+  <Button
     android:background="@color/white"
     android:id="@+id/star_btn"
     android:textColor="@color/black"

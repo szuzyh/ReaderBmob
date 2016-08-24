@@ -40,4 +40,5 @@ dependencies {
     compile project(':material-login')
     compile files('libs/android-async-http-1.4.8.jar')
     compile files('libs/org.apache.http.legacy.jar')
-   }
+    compile files('libs/libammsdk.jar')
+}

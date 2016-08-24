@@ -18,6 +18,7 @@
     <color name="black">#000000</color>
     <!--<color name="grey">#a7a4a4</color>-->
     <color name="grey">#BEBEBE</color>
+
     <color name="grey_light">#f5f3f3</color>
     <color name="green">#12ba4d</color>
     <color name="yellow">#ecdd09</color>
@@ -25,5 +26,8 @@
     <color name="material_login_register_color">@color/colorPrimary</color>
     <color name="material_login_login_error_color">#ffbebe</color>
     <color name="material_login_register_error_color">#600002</color>
-
+    <color name="comments_reply_color">#686868</color>
+    <color name="comments_time_color">#8c8c8c</color>
+    <color name="comments_expand_bg_color">#9fd9ec</color>
+    <color name="gray_transparent">#e0303030</color>
 </resources>

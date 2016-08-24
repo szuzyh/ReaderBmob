@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/gray_transparent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/card_light"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true">
+        <include layout="@layout/progress_text"
+            />
+    </RelativeLayout>
+</RelativeLayout>

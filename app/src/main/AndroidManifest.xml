@@ -6,31 +6,37 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
-
         android:name=".ReaderApplication"
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:hardwareAccelerated="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:label="@string/app_name">
         </activity>
-        <activity android:name=".WelcomeActivity">
+        <activity
+            android:name=".Activity.WelcomeActivity"
+            android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Activity.LoginActivity">
         </activity>
-        <activity android:name=".StoryDetailActivity">
+        <activity android:name=".Activity.StoryDetailActivity">
+        </activity>
+        <activity android:name=".UserImfor">
+        </activity>
+        <activity android:name=".Activity.CommentS">
         </activity>
     </application>
 
