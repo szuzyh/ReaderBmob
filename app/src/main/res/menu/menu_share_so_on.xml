@@ -5,7 +5,7 @@
           android:icon="@mipmap/share"
           android:title=""
           app:showAsAction = "always"/>
-    <item android:id="@+id/collect"
+    <item android:id="@+id/star_btn"
           android:icon="@mipmap/collect"
           android:title=""
           app:showAsAction = "always"/>

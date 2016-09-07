@@ -5,10 +5,11 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
     <application
         android:name=".ReaderApplication"
         android:allowBackup="true"
@@ -19,24 +20,35 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".Activity.MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
         </activity>
-        <activity
-            android:name=".Activity.WelcomeActivity"
-            android:launchMode="singleInstance">
+        <activity android:name=".Activity.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.LoginActivity">
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:launchMode="singleTop">
         </activity>
         <activity android:name=".Activity.StoryDetailActivity">
         </activity>
-        <activity android:name=".UserImfor">
-        </activity>
         <activity android:name=".Activity.CommentS">
+        </activity>
+        <activity android:name=".Activity.UserInfo">
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity android:name=".Activity.StarsAct">
         </activity>
     </application>
 

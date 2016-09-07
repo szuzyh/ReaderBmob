@@ -18,12 +18,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_user_name"
-        android:text="clickTest"
         android:layout_marginTop="10dp"/>
 
   <Button
     android:background="@color/white"
-    android:id="@+id/star_btn"
+    android:id="@+id/star_show"
     android:textColor="@color/black"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

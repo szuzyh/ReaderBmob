@@ -36,7 +36,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/email"
+                    android:hint="@string/name"
                     android:textSize="20sp" />
             </android.support.design.widget.TextInputLayout>
 
